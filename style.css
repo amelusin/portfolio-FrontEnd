@@ -16,7 +16,7 @@
   float: left;
   display: block;
   color: #f2f2f2;
-  text-align: center;
+  text-align: left;
   padding: 3px 16px;
   text-decoration: none;
 }
@@ -29,7 +29,7 @@
 
 /* Main content */
 .main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
+  margin-top: 15px; /* Add a top margin to avoid content overlay */
 }
  #carouselExampleFade {
     width: 100%;
