@@ -3,20 +3,19 @@
  }
 
 /* The navigation bar */
-.navbar {
+nav {
   overflow: hidden;
   background-image: url("imagenes/Fondoheader2.jpg");
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  z-index: 999;
 }
 
 /* Links inside the navbar */
-.navbar a {
+nav a {
   float: left;
   display: block;
-  color: #59c527;
-  padding: 0px 0px;
   text-decoration: none;
 }
 
@@ -39,8 +38,11 @@
   margin-top: 15px; /* Add a top margin to avoid content overlay */
 }
 
-
- #carouselExampleFade {
+#carouselExampleFade {
     width: 100%;
     height: 100%;
- }
+}
+
+.profilepic {
+  border-radius: 50%;
+}
