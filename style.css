@@ -5,10 +5,11 @@
 /* The navigation bar */
 .navbar {
   overflow: hidden;
-  background-image: url(imagenes/Fondoheader.jpg);
+  background-image: url(imagenes/Fondoheader2.jpg);
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  height: 100%;
 }
 
 /* Links inside the navbar */
@@ -17,7 +18,7 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 3px 12px;
   text-decoration: none;
 }
 
