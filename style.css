@@ -1,5 +1,7 @@
-.body {
+body {
   background-color: #0c1525;
+  height: auto;
+  width: auto;
  }
 
 /* The navigation bar */
@@ -9,28 +11,64 @@ nav {
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  height: 36px;
   z-index: 999;
 }
 
+
 /* Links inside the navbar */
 nav a {
-  float: left;
+  float: right;
   display: block;
   text-decoration: none;
+  padding-right: 5px;
+  margin-top: 3px;
+}
+
+.arg {
+  float: left;
 }
 
 /* Change background on mouse-over */
-.navbar .fac:hover {
-  background-color: aliceblue;
+.fac :hover {
+  background: url("imagenes/iconos/facebookiconcolor.png");
 }
-.navbar .you:hover {
+.you :hover {
   background-color: rgb(66, 241, 12);
 }
-.navbar .ins:hover {
+.ins :hover {
   background-color: rgb(17, 128, 226);
 }
-.navbar .spo:hover {
+.spo :hover {
   background-color: rgb(228, 21, 31);
+  }
+
+  .button {
+    background-color: #1a45bd;
+    border: none;
+    color: white;
+    padding: 2px 15px; 
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 4px;
+    transition-duration: 0.4s;
+    border-radius: 8px;   
+    cursor: pointer;
+    float: right;    
+  }
+
+  .button1 {
+    background-color: rgb(6, 100, 240); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #ffffff;
+  }
+
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
   }
 
 /* Main content */
@@ -44,5 +82,13 @@ nav a {
 }
 
 .profilepic {
+  position: relative;
   border-radius: 50%;
+  max-width: 15%;
+  max-height: 15%;
+  z-index: 100;
+  margin-top: -8%;
+  margin-left: 1%;
+  display: block;
+  border: 5px solid #ffffff;
 }
