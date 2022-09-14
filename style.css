@@ -5,7 +5,7 @@ body {
  }
 
 /* barra superior fija */
-nav {
+header {
   overflow: hidden;
   background-image: url("imagenes/Fondoheader2.jpg");
   position: fixed; /* Fija la barra */
@@ -17,7 +17,7 @@ nav {
 
 
 /* Iconos dentro de la barra superior fija */
-nav a {
+header a {
   float: right;
   display: block;
   text-decoration: none;
@@ -99,7 +99,7 @@ nav a {
    solid #ffffff; /* Color del Borde */
 }
 
-.persinf {
+.container {
   background-color: rgb(202, 240, 248);
   margin-left: 1%;
   margin-right: 1%;
