@@ -5,7 +5,7 @@ body {
  }
 
 /* barra superior fija */
-header {
+nav {
   overflow: hidden;
   background-image: url("imagenes/Fondoheader2.jpg");
   position: fixed; /* Fija la barra */
@@ -17,7 +17,7 @@ header {
 
 
 /* Iconos dentro de la barra superior fija */
-header a {
+nav a {
   float: right;
   display: block;
   text-decoration: none;
