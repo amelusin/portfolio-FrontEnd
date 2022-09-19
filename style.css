@@ -99,22 +99,22 @@ nav a {
 }
 
 .container {
-  background-color: rgb(202, 240, 248);
+  background-color: #CAF0F8;
   margin-left: 1%;
   margin-right: 1%;
   border-style: none none none solid;
   border-width: 10px;
-  border-color: rgb(0, 180, 216);
+  border-color: #00B4D8;
   border-radius: 10px;
 }
 
 .persinf2 {
-  background-color: rgb(202, 240, 248);
+  background-color: #CAF0F8;
   margin-left: 1%;
   margin-right: 1%;
   border-style: none none none solid;
   border-width: 10px;
-  border-color: rgb(0, 180, 216);
+  border-color: #00B4D8;
 }
 
 h3 {
