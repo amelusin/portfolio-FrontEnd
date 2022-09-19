@@ -98,7 +98,7 @@ nav a {
    solid #000000; /* Color del Borde */
 }
 
-.container-fluid {
+.container {
   background-color: #CAF0F8;
   margin-left: 1%;
   margin-right: 1%;
