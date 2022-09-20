@@ -118,3 +118,11 @@ nav a {
   border-width: 10px;
   border-color: #00B4D8;
 }
+
+.logo {
+  float: right;
+  margin-top: 10px;
+  max-width: 110px;
+  max-height: 110px;
+  
+}
