@@ -47,8 +47,7 @@ nav a {
 
 /* Boton Login, cambia de color al colocar mouse encima*/
   .button {
-    background-color: #1a45bd;
-    border: none;
+    background-color: #0077B6;
     color: white;
     padding: 2px 15px; 
     text-align: center;
@@ -62,9 +61,10 @@ nav a {
   }
 
   .button1 {
-    background-color: rgb(6, 100, 240); 
+    background-color: #0077B6; 
     color: rgb(255, 255, 255); 
     border: 2px solid rgb(0, 180, 216)
+    
   }
 
   .button1:hover {
@@ -119,10 +119,17 @@ nav a {
   border-color: #00B4D8;
 }
 
-.logo {
+.logoexp {
   float: right;
-  margin-top: 10px;
+  margin-top: 15px;
   max-width: 110px;
   max-height: 110px;
-  
 }
+
+.logoed {
+  float: right;
+  margin-top: 15px;
+  max-width: 80px;
+  max-height: 80px;
+}
+
