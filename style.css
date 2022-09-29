@@ -139,8 +139,10 @@ nav a {
 }
 
 .single-chart {
-  width: 33%;
+  width:130px;
   justify-content: space-between ;
+  margin: auto;
+  float: none;
 }
 
 .circular-chart {
@@ -152,7 +154,7 @@ nav a {
 
 .circle-bg {
   fill: none;
-  stroke: #eee;
+  stroke: rgb(204, 201, 201);
   stroke-width: 3.8;
 }
 
@@ -170,7 +172,7 @@ nav a {
 }
 
 .circular-chart.orange .circle {
-  stroke: #ff9f00;
+  stroke: #0077B6;
 }
 
 .circular-chart.green .circle {
