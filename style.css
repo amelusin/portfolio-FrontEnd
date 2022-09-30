@@ -190,6 +190,34 @@ nav a {
   text-anchor: middle;
 }
 
+/* Boton imagenes, cambia de color al colocar mouse encima*/
+.button5 {
+  background-color: #0077B6;
+  color: white;
+  padding: 2px 15px; 
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 4px 4px;
+  transition-duration: 0.4s;
+  border-radius: 8px;   
+  cursor: pointer;
+  float: center;    
+}
+
+.button6 {
+  background-color: #0077B6; 
+  color: rgb(255, 255, 255); 
+  border: 2px solid rgb(0, 180, 216)
+  
+}
+
+.button6:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
 /* The Modal (background) */
 .modal1 {
   display: none; /* Hidden by default */
@@ -207,10 +235,10 @@ nav a {
 }
 
 /* Modal Content/Box */
-.modal-content1 {
+.modal-content {
   position: relative;
   background-color: #fefefe;
-  margin: 3% auto;
+  margin: 0% auto;
   padding: 0%;
   border: 10px solid #888;
   width: 90%;
@@ -220,15 +248,14 @@ nav a {
 
 /* The Close Button */
 .close {
-  color: rgb(0, 0, 0);
-  float: right;
+  color: rgb(255, 255, 255);
   font-size: 15px;
   font-weight:normal;
 }
 
 .close:hover,
 .close:focus {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   cursor: pointer;
 }
