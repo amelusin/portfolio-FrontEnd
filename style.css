@@ -6,7 +6,7 @@ body {
 /* barra superior fija */
 nav {
   overflow: hidden;
-  background-image: url("imagenes/Fondoheader2.jpg");
+  background-image: url("imagenes/Fondoheader.jpg");
   position: fixed; /* Fija la barra */
   top: 0; /* Posiciona la barra en la parte superior de la pagina */
   width: 100%; /* ocupa el ancho total de la pagina sin importar el tamaño de la ventana */
